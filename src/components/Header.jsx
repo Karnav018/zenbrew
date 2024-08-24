@@ -1,8 +1,9 @@
 "use client";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence } from "framer-motion";
-import { useState } from "react";
+//components
 import Nav from "./Nav/Nav";
 
 const Header = () => {
@@ -21,7 +22,7 @@ const Header = () => {
           {/* Nav trigger btn */}
           <button
             onClick={() => setNavActive(!navActive)}
-            className="w-8 h-6 text-accent relative flex items-center justify-center z-[60] outline-none"
+            className="w-9 h-6 text-accent relative flex items-center justify-center z-[60] outline-none"
           >
             {/* 1 */}
             <span
