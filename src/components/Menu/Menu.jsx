@@ -1,5 +1,5 @@
-import Separator from "./Separator";
-import MenuItem from "./MenuItem";
+import Separator from "../Separator";
+import MenuItem from "../Menu/MenuItem";
 
 const menuItems = [
   {

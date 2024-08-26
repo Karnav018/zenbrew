@@ -5,7 +5,8 @@ import { useEffect } from "react";
 import Hero from "@/components/Hero";
 import Explore from "@/components/Explore";
 import About from "@/components/About";
-import Menu from "@/components/Menu";
+import Menu from "@/components/Menu/Menu";
+import Testimonials from "@/components/Testimonials";
 
 const Home = () => {
   //add locomotive scroll
@@ -22,6 +23,7 @@ const Home = () => {
       <Explore />
       <About />
       <Menu />
+      <Testimonials />
       {/* Temporary */}
       <div className="h-[4000px]"></div>
     </div>
