@@ -29,6 +29,8 @@ const MenuItem = ({ imgSrc, name, description, price }) => {
             {price.toFixed(2)}
           </p>
         </div>
+        {/* description */}
+        <p>{description}</p>
       </div>
     </div>
   );

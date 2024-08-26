@@ -62,6 +62,12 @@ const menuItems = [
     description: "Coffee with Irish whiskey and cream.",
     price: 6.5,
   },
+  {
+    imgSrc: "/assets/menu/coffee-1.png",
+    name: "French vanilla",
+    description: "Espresso with delicate blend of vanilla.",
+    price: 4.77,
+  },
 ];
 
 const Menu = () => {
