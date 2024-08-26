@@ -23,7 +23,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero_overlay: "url('/assets/hero/hero_overlay.png')",
-        opening_hours: "url('/assets/opening_hours/bg.png')",
+        opening_hours: "url('/assets/opening-hours/bg.png')",
         footer: "url('/assets/footer/bg.png')",
       },
       colors: {
